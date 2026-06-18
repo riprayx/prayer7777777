@@ -72,11 +72,7 @@
 
 ### 🧰 ~~My Skill Set~~
 <!--
-- 💻 **Programming Languages**: `JavaScript`, `TypeScript`, `Python`, `Java`
-- 🌐 **Frontend**: `React`, `Vue`, `Next.js`, `HTML`, `CSS`
-- ☁️ **Backend**: `Node.js`, `Express`, `Django`
-- 🛢️ **Databases**: `MongoDB`, `PostgreSQL`, `MySQL`
-- 🔧 **Tools**: `Git`, `Docker`, `Webpack`
+NULL
 -->
 <p align="left">
   <a href="https://skillicons.dev">
