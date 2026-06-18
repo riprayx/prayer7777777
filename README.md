@@ -71,11 +71,7 @@
 ---
 
 ### 🧰 ~~My Skill Set~~
-<!--
+
+'''
 NULL
--->
-<p align="left">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=js,ts,py,java,react,vue,nextjs,html,css,nodejs,express,django,git,docker,webpack,vscode,windows,cloudflare" />
-  </a>
-</p>
+'''
