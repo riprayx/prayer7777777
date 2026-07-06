@@ -1,77 +1,95 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3aWVtcWVoZzhmZ2JmdnF4MGo1OWQ3ZmN4OXFodGJpbTN1cWN1MHlraiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/3k6XCsgTwqDWmaKZWN/giphy.gif" width="100%" height="600"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=70A5FD&center=true&vCenter=true&width=500&lines=Ciallo%EF%BD%9E(%E2%88%A0%E3%83%BB%CF%89%3C+)%E2%8C%90%E2%98%85;Welcome+to+my+digital+world!" alt="Typing SVG" /></a>
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:101828,50:2563EB,100:7C3AED&text=prayer7777777&fontAlign=50&fontAlignY=38&fontColor=F8FAFC&fontSize=48&desc=Ciallo%EF%BD%9E%20Building,%20learning,%20and%20shipping%20small%20interesting%20things.&descAlign=50&descAlignY=60&animation=fadeIn" alt="profile header" />
 
-<p align="center"> 
-    <img src="https://img.shields.io/github/followers/prayer7777777?label=Followers&style=social" alt="GitHub Followers"/>
-    <img src="https://img.shields.io/github/stars/prayer7777777?label=Stars&style=social" alt="GitHub Stars"/>
-</p>
-
-<p align="center">
   <a href="https://github.com/prayer7777777">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=prayer7777777.prayer7777777" alt="visitor badge"/>
-    <img src="https://img.shields.io/github/license/prayer7777777/prayer7777777?style=flat-square" alt="License"/>
-    <img src="https://img.shields.io/github/last-commit/prayer7777777/prayer7777777?style=flat-square" alt="Last Commit"/>
+    <img src="https://img.shields.io/github/followers/prayer7777777?label=Followers&style=for-the-badge&logo=github" alt="GitHub followers" />
   </a>
-</p>
+  <a href="https://github.com/prayer7777777?tab=repositories">
+    <img src="https://img.shields.io/github/stars/prayer7777777?label=Stars&style=for-the-badge&logo=github" alt="GitHub stars" />
+  </a>
+  <img src="https://komarev.com/ghpvc/?username=prayer7777777&style=for-the-badge&color=2563eb" alt="profile views" />
 
-
-
-###
-<p align="center">
-    <a href="https://github.com/piyushsuthar/quotes-github-readme">
-        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-    </a>
-</p>
+</div>
 
 ---
 
-### 📊 My GitHub Stats
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api?username=prayer7777777&show_icons=true&theme=tokyonight&rank_icon=github" alt="prayer7777777's github stats" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prayer7777777&layout=compact&theme=tokyonight" alt="Top Langs" />
-  </a>
-</p>
+## About
+
+Hi, I am **prayer7777777**.
+
+I use GitHub as a workshop for practical experiments: cloud tools, automation, small AI services, personal sites, Android utilities, and research-style prototypes. I prefer projects that are useful enough to run, simple enough to understand, and documented enough to revisit later.
+
+```text
+Focus       Cloudflare Workers, MCP servers, automation, AI tooling
+Style       Pragmatic prototypes, readable docs, deployable demos
+Currently   Polishing repos, learning by building, keeping notes public
+```
+
+## Working On
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/prayer7777777/GrokSearch">GrokSearch</a></h3>
+      <p>Remote MCP / search tooling experiments around Cloudflare Workers and AI-assisted workflows.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/prayer7777777/model-council">model-council</a></h3>
+      <p>Model comparison and council-style reasoning experiments.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3><a href="https://github.com/prayer7777777/cloud-mail">cloud-mail</a></h3>
+      <p>Cloud email utilities and service-side experiments.</p>
+    </td>
+    <td width="50%">
+      <h3><a href="https://github.com/prayer7777777/newapi-mcp">newapi-mcp</a></h3>
+      <p>MCP wrapper experiments for New API style services.</p>
+    </td>
+  </tr>
+</table>
+
+## Toolbox
+
+<div align="center">
+
+  <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,workers,ts,js,nodejs,python,powershell,docker,linux,vscode&perline=7" alt="toolbox" />
+
+</div>
+
+## GitHub Stats
+
+<div align="center">
+
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prayer7777777&theme=tokyonight" alt="profile details" />
+
+</div>
+
+<div align="center">
+
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=prayer7777777&theme=tokyonight" alt="repos per language" />
+  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=prayer7777777&theme=tokyonight" alt="most commit language" />
+
+</div>
+
+## Activity
+
+<div align="center">
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
+  </picture>
+
+</div>
 
 ---
 
-### 🏆 My GitHub Trophies
-<p align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=prayer7777777&theme=tokyonight&row=1&column=7&margin-w=15&margin-h=15" alt="prayer7777777" />
-  </a>
-</p>
+<div align="center">
 
----
+  <sub>Built with curiosity, kept tidy with Git.</sub>
 
-### 📊 My WakaTime Stats
-<p align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/wakatime?username=prayer7777777&theme=tokyonight&layout=compact" alt="wakatime" />
-  </a>
-</p>
-
----
-
-### 🐍 Contributing
-<!-- 
-**注意**: 这个贪吃蛇动画需要你在你的仓库中设置一个 GitHub Action 才能正常工作。
--->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
-
----
-
-### 🧰 ~~My Skill Set~~
-
-'''
-NULL
-'''
+</div>
