@@ -1,50 +1,74 @@
-<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="520" viewBox="0 0 1280 520" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#0B1020"/>
-      <stop offset="0.45" stop-color="#102A63"/>
-      <stop offset="1" stop-color="#3B176B"/>
+    <linearGradient id="field" x1="0" y1="0" x2="1280" y2="520" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#03040A"/>
+      <stop offset="0.45" stop-color="#090D18"/>
+      <stop offset="1" stop-color="#150819"/>
     </linearGradient>
-    <linearGradient id="accent" x1="140" y1="270" x2="1060" y2="92" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#A78BFA"/>
-      <stop offset="1" stop-color="#F472B6"/>
+    <linearGradient id="blade" x1="220" y1="428" x2="1060" y2="92" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7DD3FC"/>
+      <stop offset="0.48" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#F0ABFC"/>
     </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="22" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.35 0 0 0 0 0.55 0 0 0 0 1 0 0 0 0.7 0"/>
-      <feBlend in="SourceGraphic" mode="screen"/>
+    <radialGradient id="auraA" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1010 134) rotate(134) scale(410 250)">
+      <stop stop-color="#38BDF8" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="auraB" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(246 404) rotate(-26) scale(430 220)">
+      <stop stop-color="#A78BFA" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feBlend in="SourceGraphic" in2="blur" mode="screen"/>
     </filter>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    <pattern id="microgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#FFFFFF" stroke-opacity="0.045"/>
     </pattern>
   </defs>
 
-  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <rect width="1280" height="520" rx="34" fill="url(#field)"/>
+  <rect width="1280" height="520" rx="34" fill="url(#microgrid)"/>
+  <rect width="1280" height="520" rx="34" fill="url(#auraA)"/>
+  <rect width="1280" height="520" rx="34" fill="url(#auraB)"/>
 
-  <circle cx="175" cy="90" r="120" fill="#38BDF8" fill-opacity="0.18" filter="url(#glow)"/>
-  <circle cx="1010" cy="284" r="145" fill="#A78BFA" fill-opacity="0.20" filter="url(#glow)"/>
-  <path d="M104 268C250 178 410 312 548 222C691 129 824 126 1078 84" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
-  <path d="M104 290C260 205 395 330 562 248C706 177 844 154 1078 118" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" opacity="0.28"/>
+  <path d="M126 376C294 264 386 444 558 312C720 188 826 184 1150 118" stroke="url(#blade)" stroke-width="2.6" stroke-linecap="round" filter="url(#softGlow)"/>
+  <path d="M180 406C334 332 444 432 594 348C766 252 908 214 1108 196" stroke="#E5E7EB" stroke-opacity="0.18" stroke-width="1.4" stroke-linecap="round"/>
 
-  <g opacity="0.95">
-    <rect x="86" y="70" width="1028" height="220" rx="24" fill="#020617" fill-opacity="0.50" stroke="#FFFFFF" stroke-opacity="0.12"/>
-    <text x="600" y="150" fill="#F8FAFC" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="58" font-weight="800" text-anchor="middle" letter-spacing="1">
-      prayer7777777
-    </text>
-    <text x="600" y="194" fill="#BAE6FD" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="24" font-weight="600" text-anchor="middle">
-      Ciallo~ building small useful systems with cloud, automation, and AI tools
-    </text>
-    <text x="600" y="238" fill="#CBD5E1" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="18" text-anchor="middle">
-      Cloudflare Workers  |  MCP  |  GitHub Actions  |  Python  |  TypeScript  |  PowerShell
-    </text>
+  <g opacity="0.88">
+    <rect x="86" y="74" width="1108" height="372" rx="28" fill="#050712" fill-opacity="0.72" stroke="#FFFFFF" stroke-opacity="0.12"/>
+    <rect x="116" y="104" width="1048" height="312" rx="18" stroke="#FFFFFF" stroke-opacity="0.07"/>
   </g>
 
-  <g fill="#E0F2FE" opacity="0.85">
-    <circle cx="147" cy="116" r="3"/>
-    <circle cx="1010" cy="104" r="3"/>
-    <circle cx="1074" cy="242" r="3"/>
-    <circle cx="244" cy="252" r="3"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="146" y="144" fill="#94A3B8" font-size="15" letter-spacing="6">SYSTEM PROFILE</text>
+    <text x="146" y="232" fill="#F8FAFC" font-size="72" font-weight="800" letter-spacing="2">PRAYER7777777</text>
+    <text x="150" y="280" fill="#CBD5E1" font-size="26" font-weight="500">quiet tools for loud problems</text>
+    <text x="150" y="334" fill="#8BD3FF" font-size="17" letter-spacing="4">CLOUDFLARE / MCP / AGENTS / AUTOMATION / SMALL SYSTEMS</text>
+  </g>
+
+  <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="15">
+    <text x="866" y="142" fill="#94A3B8">build target</text>
+    <text x="866" y="170" fill="#E2E8F0">deployable prototypes</text>
+    <text x="866" y="218" fill="#94A3B8">operating mode</text>
+    <text x="866" y="246" fill="#E2E8F0">read, refine, ship</text>
+    <text x="866" y="294" fill="#94A3B8">bias</text>
+    <text x="866" y="322" fill="#E2E8F0">automation over repetition</text>
+    <text x="866" y="370" fill="#94A3B8">status</text>
+    <text x="866" y="398" fill="#BAE6FD">online</text>
+  </g>
+
+  <g opacity="0.8">
+    <circle cx="822" cy="134" r="3" fill="#7DD3FC"/>
+    <circle cx="822" cy="210" r="3" fill="#A78BFA"/>
+    <circle cx="822" cy="286" r="3" fill="#F0ABFC"/>
+    <circle cx="822" cy="362" r="3" fill="#E2E8F0"/>
+    <path d="M822 137V359" stroke="#FFFFFF" stroke-opacity="0.15"/>
+  </g>
+
+  <g opacity="0.58" stroke="#FFFFFF" stroke-opacity="0.24">
+    <path d="M150 382H378"/>
+    <path d="M150 398H300"/>
+    <path d="M150 414H340"/>
   </g>
 </svg>

@@ -1,81 +1,97 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/profile-header.svg" alt="PRAYER7777777 profile header" width="100%" />
+</p>
 
-  <img src="./assets/profile-header.svg" alt="profile header" />
-
-  <a href="https://github.com/prayer7777777">
-    <img src="https://img.shields.io/github/followers/prayer7777777?label=Followers&style=for-the-badge&logo=github" alt="GitHub followers" />
-  </a>
-  <a href="https://github.com/prayer7777777?tab=repositories">
-    <img src="https://img.shields.io/github/stars/prayer7777777?label=Stars&style=for-the-badge&logo=github" alt="GitHub stars" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=prayer7777777&style=for-the-badge&color=2563eb" alt="profile views" />
-
-</div>
+<p align="center">
+  <a href="https://github.com/prayer7777777?tab=repositories">repositories</a>
+  <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+  <a href="https://github.com/prayer7777777/GrokSearch">GrokSearch</a>
+  <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+  <a href="https://github.com/prayer7777777/model-council">model-council</a>
+  <span>&nbsp;&nbsp;/&nbsp;&nbsp;</span>
+  <a href="https://github.com/prayer7777777/newapi-mcp">newapi-mcp</a>
+</p>
 
 ---
 
-## Hello
+### Signal
 
-Hi, I am **prayer7777777**.
+I build compact systems around cloud runtime, agent workflows, automation, and model tooling.
 
-I use GitHub as a workshop for practical experiments: cloud tools, automation, small AI services, personal sites, Android utilities, and research-style prototypes. I prefer projects that are useful enough to run, simple enough to understand, and documented enough to revisit later.
+The goal is not to collect repositories. The goal is to leave behind things that still make sense when I return to them later.
 
-<table>
-  <tr>
-    <td><strong>Focus</strong></td>
-    <td>Cloudflare Workers, MCP servers, automation, AI tooling</td>
-  </tr>
-  <tr>
-    <td><strong>Style</strong></td>
-    <td>Pragmatic prototypes, readable docs, deployable demos</td>
-  </tr>
-  <tr>
-    <td><strong>Now</strong></td>
-    <td>Polishing repos, learning by building, keeping notes public</td>
-  </tr>
-</table>
+```txt
+mode       prototype -> harden -> document -> deploy
+stack      Cloudflare Workers / MCP / TypeScript / Python / PowerShell
+interest   small infrastructure, AI tools, practical automation
+taste      quiet UI, explicit docs, fewer moving parts
+```
 
-## Principles
+### Selected Systems
 
 <table>
   <tr>
-    <td width="33%"><strong>Ship small</strong><br/>Keep ideas runnable before they become complicated.</td>
-    <td width="33%"><strong>Document early</strong><br/>Leave enough context for the next session to resume fast.</td>
-    <td width="33%"><strong>Automate boring work</strong><br/>Use scripts, workflows, and agents where they reduce friction.</td>
-  </tr>
-</table>
-
-## Featured Work
-
-<table>
-  <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
+      <sub>REMOTE MCP / SEARCH</sub>
       <h3><a href="https://github.com/prayer7777777/GrokSearch">GrokSearch</a></h3>
-      <p>Remote MCP / search tooling experiments around Cloudflare Workers and AI-assisted workflows.</p>
-      <p><img src="https://img.shields.io/github/stars/prayer7777777/GrokSearch?style=flat-square" alt="GrokSearch stars" /> <img src="https://img.shields.io/github/last-commit/prayer7777777/GrokSearch?style=flat-square" alt="GrokSearch last commit" /></p>
+      <p>A Cloudflare-native search MCP direction: fewer servers, cleaner deployment, direct remote access.</p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
+      <sub>MODEL REASONING</sub>
       <h3><a href="https://github.com/prayer7777777/model-council">model-council</a></h3>
-      <p>Model comparison and council-style reasoning experiments.</p>
-      <p><img src="https://img.shields.io/github/stars/prayer7777777/model-council?style=flat-square" alt="model-council stars" /> <img src="https://img.shields.io/github/last-commit/prayer7777777/model-council?style=flat-square" alt="model-council last commit" /></p>
+      <p>A playground for comparing model outputs and making multi-model judgment easier to inspect.</p>
     </td>
   </tr>
   <tr>
-    <td width="50%">
+    <td width="50%" valign="top">
+      <sub>CLOUD SERVICE</sub>
       <h3><a href="https://github.com/prayer7777777/cloud-mail">cloud-mail</a></h3>
-      <p>Cloud email utilities and service-side experiments.</p>
-      <p><img src="https://img.shields.io/github/stars/prayer7777777/cloud-mail?style=flat-square" alt="cloud-mail stars" /> <img src="https://img.shields.io/github/last-commit/prayer7777777/cloud-mail?style=flat-square" alt="cloud-mail last commit" /></p>
+      <p>Mail and cloud-service experiments with an emphasis on usable deployment paths.</p>
     </td>
-    <td width="50%">
+    <td width="50%" valign="top">
+      <sub>MCP WRAPPER</sub>
       <h3><a href="https://github.com/prayer7777777/newapi-mcp">newapi-mcp</a></h3>
-      <p>MCP wrapper experiments for New API style services.</p>
-      <p><img src="https://img.shields.io/github/stars/prayer7777777/newapi-mcp?style=flat-square" alt="newapi-mcp stars" /> <img src="https://img.shields.io/github/last-commit/prayer7777777/newapi-mcp?style=flat-square" alt="newapi-mcp last commit" /></p>
+      <p>A small MCP wrapper experiment for New API style services and agent-facing access.</p>
     </td>
   </tr>
 </table>
+
+### Operating Notes
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <strong>Read the system first</strong><br/>
+      Let existing constraints shape the implementation.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Prefer runnable artifacts</strong><br/>
+      A demo that works beats a plan that sounds complete.
+    </td>
+    <td width="33%" valign="top">
+      <strong>Keep the trail visible</strong><br/>
+      Documentation is part of the engineering surface.
+    </td>
+  </tr>
+</table>
+
+### Stack
+
+<p>
+  <code>Cloudflare Workers</code>
+  <code>MCP</code>
+  <code>GitHub Actions</code>
+  <code>TypeScript</code>
+  <code>Python</code>
+  <code>PowerShell</code>
+  <code>Docker</code>
+  <code>Linux</code>
+</p>
+
+### Archive
 
 <details>
-  <summary><strong>More repositories I keep around</strong></summary>
+  <summary>More work</summary>
   <br/>
 
   - <a href="https://github.com/prayer7777777/CLIProxyAPI">CLIProxyAPI</a> - API proxy experiments for command-line model tools.
@@ -84,45 +100,21 @@ I use GitHub as a workshop for practical experiments: cloud tools, automation, s
   - <a href="https://github.com/prayer7777777/PyImpact-Insight">PyImpact-Insight</a> - Python analysis and impact exploration.
 </details>
 
-## Toolbox
+<details>
+  <summary>Contribution graph</summary>
+  <br/>
 
-<div align="center">
-
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,cloudflare,workers,ts,js,nodejs,python,powershell,docker,linux,vscode&perline=7" alt="toolbox" />
-
-</div>
-
-## GitHub Stats
-
-<div align="center">
-
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=prayer7777777&theme=tokyonight" alt="profile details" />
-
-</div>
-
-<div align="center">
-
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=prayer7777777&theme=tokyonight" alt="repos per language" />
-  <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=prayer7777777&theme=tokyonight" alt="most commit language" />
-
-</div>
-
-## Activity
-
-<div align="center">
-
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
-  </picture>
-
-</div>
+  <p align="center">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake-dark.svg" />
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
+      <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/prayer7777777/prayer7777777/output/github-contribution-grid-snake.svg" />
+    </picture>
+  </p>
+</details>
 
 ---
 
-<div align="center">
-
-  <sub>Built with curiosity, kept tidy with Git.</sub>
-
-</div>
+<p align="center">
+  <sub>small systems, clean edges, no wasted motion</sub>
+</p>
